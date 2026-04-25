@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyCredo Auth Suite">
+
+    <test name="Negative Auth Tests">
+        <classes>
+            <class name="tests.AuthNegativeTest"/>
+        </classes>
+    </test>
+
+</suite>
